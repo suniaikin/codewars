@@ -13,7 +13,7 @@ function makeNegative(num) {
     return num
 }
 
-console.log(makeNegative(-1))
+console.log(makeNegative(-1));
 
 //💖BEST PRACTICE💖
 
