@@ -6,14 +6,14 @@ function makeNegative(num) {
     if (num > 0) {
         num = num * (-1);
     } else if (num < 0) {
-        num;
+        num = num * 1;
     } else {
         num = 0;
     }
     return num
 }
 
-console.log(makeNegative(-1))
+console.log(makeNegative(-1));
 
 //💖BEST PRACTICE💖
 
