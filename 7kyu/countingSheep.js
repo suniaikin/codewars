@@ -34,6 +34,6 @@ console.log(countSheep(arr));
 
 // 💖BEST PRACTICE💖
 
-function countSheeps(arrayOfSheeps) {
+function countSheep(arrayOfSheeps) {
     return arrayOfSheeps.filter(Boolean).length;
 }
