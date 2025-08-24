@@ -15,6 +15,7 @@ function positiveSum(arr) {
 
 }
 
+console.log(positiveSum([2, -2, 4]));
 
 // 💖BEST PRACTICE💖
 
