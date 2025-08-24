@@ -14,11 +14,12 @@ function positiveSum(arr) {
 	} return sum
 
 }
-
 console.log(positiveSum([2, -2, 4]));
-
 // 💖BEST PRACTICE💖
 
+function positiveSum(arr) {
+	return arr.reduce((sum, currentNumber) => currentNumber > 0 ? sum + currentNumber : sum, 0);
+}
 
 
 
