@@ -14,12 +14,20 @@ function positiveSum(arr) {
 	} return sum
 
 }
-console.log(positiveSum([2, -2, 4]));
+
+let array = [1,2,3];
+let out = positiveSum(array)
+console.log(out)
+
 // 💖BEST PRACTICE💖
 
-function positiveSum(arr) {
+function positiveSum2(arr) {
 	return arr.reduce((sum, currentNumber) => currentNumber > 0 ? sum + currentNumber : sum, 0);
 }
+
+let array2 = [1,2,3];
+let out2 = positiveSum2(array2)
+console.log(out2)
 
 
 
