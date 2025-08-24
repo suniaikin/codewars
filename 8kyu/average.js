@@ -6,17 +6,11 @@ Note: Empty arrays should return 0.
 
 //✅SOLUTION✅
 function findAverage(array) {
-	if (array.length === 0) {
-		return 0;
-	}
-	let sum = 0
-	for (let i = 0; i < array.length; i++) {
-		sum += array[i]
-	}
-	return sum / array.length
-
+  // your code here
+  return 0;
 }
-
+let arr = [1,2,3];
+let out = findAverage(arr);
 console.log(findAverage([1, 2, 3]))
 
 // 💖BEST PRACTICE💖
