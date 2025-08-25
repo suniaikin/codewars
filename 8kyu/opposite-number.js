@@ -5,13 +5,11 @@ find its opposite (additive inverse).
 */
 
 
-
 //✅SOLUTION✅
 
 function opposite(number) {
 	return number*(-1)
 }
-
 
 let number = 2;
 let out = opposite(number)
