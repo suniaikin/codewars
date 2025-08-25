@@ -18,7 +18,12 @@ var summation = function (num) {
 	} return sum
 }
 
-console.log(summation(2))
+console.log(summation(5))
 
 
 // 💖BEST PRACTICE💖
+
+var summation2 = function (num) {
+  return num * (num + 1) / 2;
+}
+console.log(summation2(5))
