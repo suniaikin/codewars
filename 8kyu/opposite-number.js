@@ -19,3 +19,9 @@ console.log(out)
 
 
 // 💖BEST PRACTICE💖
+
+const opposite2 = n => -n
+
+let number2 = 2;
+let out2 = opposite2(number2)
+console.log(out2)
