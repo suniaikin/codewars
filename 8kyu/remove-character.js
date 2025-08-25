@@ -29,3 +29,11 @@ console.log(out);
 
 
 // 💖BEST PRACTICE💖
+
+function removeChar2(str) {
+	return str.slice(1, -1)
+}
+
+let string2 = "#freeWord#";
+let out2 = removeChar(string2);
+console.log(out2);
