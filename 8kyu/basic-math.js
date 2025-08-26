@@ -8,8 +8,19 @@ The function should return result of numbers after applying the chosen operation
 
 //✅SOLUTION✅
 
-function basicOp(operation, value1, value2){
+function basicOp(operation, value1, value2) {
+	
+	if (operation === "+") {
+		return value1 + value2
+	} else if (operation === "-") {
+		return value1 - value2
+	} else if (operation === "*") {
+		return value1 * value2
+	} else {
+		return value1 / value2
+	}
 
 }
+
 
 // 💖BEST PRACTICE💖
