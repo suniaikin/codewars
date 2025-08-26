@@ -19,8 +19,24 @@ function basicOp(operation, value1, value2) {
 	} else {
 		return value1 / value2
 	}
-
+	
 }
 
+console.log(basicOp("*", 25, 25))
 
 // 💖BEST PRACTICE💖
+
+function basicOp2(operation, value1, value2) {
+	switch (operation) {
+	case "+":
+		return value1 + value2
+	case "-":
+		return value1 - value2
+	case "*":
+		return value1 * value2
+	case "/":
+		return value1 / value2
+	default:
+		return 0
+	}
+}
