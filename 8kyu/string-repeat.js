@@ -19,3 +19,9 @@ function repeatStr(n, s) {
 console.log(repeatStr(3, "Test"))
 
 // 💖BEST PRACTICE💖
+
+function repeatStr2(n, s) {
+	return s.repeat(n)
+}
+
+console.log(repeatStr2(3, "Test"))
