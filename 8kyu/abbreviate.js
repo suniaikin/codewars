@@ -15,4 +15,15 @@ function abbrevName(name) {
 }
 
 console.log(abbrevName(nameString))
+
 // 💖BEST PRACTICE💖
+
+let nameString2 = "sarah connor"
+let nameArray = nameString2.split(" ");
+
+
+function abbrevName2(name) {
+	return nameArray[0][0].toUpperCase() + "." + nameArray[1][0].toUpperCase()
+}
+
+console.log(abbrevName2(nameString2))
