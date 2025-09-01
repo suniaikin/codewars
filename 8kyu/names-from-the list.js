@@ -10,3 +10,8 @@ const users = [
   { id: 3, name: 'Вера', age: 22 }
 ];
 
+// Solution
+
+let userName = users.map((user) => user.name)
+
+console.log(userName)
