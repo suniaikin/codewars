@@ -7,3 +7,9 @@ const products = [
   { title: 'Мышь' },
   { title: 'Клавиатура' }
 ];
+
+products.forEach(product => {
+  product.available = true
+})
+
+console.log(products);
