@@ -14,13 +14,17 @@ const people = [
     { name: 'Петр', age: 17 }
 ];
 
-const formattedPeople = people.map((person) => {
-    let status
+/*const formattedPeople = people.map((person) => {
     if (person.age < 18) {
         return `${person.name} ("Юный")`
     } else {
         return `${person.name} ("Взрослый")`
     }
+})*/
+
+const formattedPeople = people.map((person) => {
+    let status = person.age > 18 ? "Взрослый" : "Юный"
+    return `${person.name} (${status})`;
 })
 
 
