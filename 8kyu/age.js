@@ -19,7 +19,7 @@ const formattedPeople = people.map((person) => {
     if (person.age < 18) {
         return `${person.name} ("Юный")`
     } else {
-        return `${person.name} (${person.age})`
+        return `${person.name} ("Взрослый")`
     }
 })
 
