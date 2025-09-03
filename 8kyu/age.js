@@ -14,6 +14,15 @@ const people = [
     { name: 'Петр', age: 17 }
 ];
 
+const formattedPeople = people.map((person) => {
+    let status
+    if (person.age < 18) {
+        return `${person.name} ("Юный")`
+    } else {
+        return `${person.name} (${person.age})`
+    }
+})
+
 
 
 console.log(formattedPeople);
