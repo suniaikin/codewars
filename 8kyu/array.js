@@ -13,14 +13,7 @@ const products = [
     { id: 5, name: 'Веб-камера', inStock: true }
 ];
 
-// Ваш код здесь
-// const availableProducts = ...
+const availableProducts = products.filter(item => item.inStock === true)
+
 
 console.log(availableProducts);
-/* Ожидаемый результат:
-[
-  { id: 1, name: 'Монитор', inStock: true },
-  { id: 3, name: 'Клавиатура', inStock: true },
-  { id: 5, name: 'Веб-камера', inStock: true }
-]
-*/
