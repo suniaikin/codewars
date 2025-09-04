@@ -16,4 +16,4 @@ const students = [
 
 const topStudentsNames = students.filter(student => student.score > 80).map(student => student.name.toUpperCase());
 
-console.log(topStudentsNames); // Ожидаемый результат: ['ИВАН', 'АЛЕКСЕЙ', 'СЕРГЕЙ']
+console.log(topStudentsNames);
