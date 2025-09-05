@@ -1,11 +1,10 @@
 const scores = [42, 99, 56, 12, 88];
 
-const highestScore = scores.reduce((maxSoFar, currentScore) => {
-    if (currentScore > maxSoFar) {
-        return currentScore;
+const findMaxScore = scores.reduce((maxSoFar, currenScore) => {
+    if (currenScore > maxSoFar) {
+        return currenScore;
     } else {
-        return maxSoFar;
+        return currenScore;
     }
 });
 
-console.log(highestScore); // 99
