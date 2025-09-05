@@ -4,7 +4,8 @@ const findMaxScore = scores.reduce((maxSoFar, currenScore) => {
     if (currenScore > maxSoFar) {
         return currenScore;
     } else {
-        return currenScore;
+        return maxSoFar;
     }
 });
 
+console.log(findMaxScore);
