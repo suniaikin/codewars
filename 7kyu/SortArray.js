@@ -14,7 +14,11 @@ All of the strings in the array passed to your function will be different length
 //✅SOLUTION✅
 
 function sortByLength(array) {
-    // Return an array containing the same strings,
-    // ordered from shortest to longest
-    return array.sort((a, b) => a.length - b.length)
+	// Return an array containing the same strings,
+	// ordered from shortest to longest
+	return array.sort((a, b) => a.length - b.length)
 }
+
+let out = sortByLength(["Telescopes", "Glasses", "Eyes", "Monocles"])
+console.log(out)
+
